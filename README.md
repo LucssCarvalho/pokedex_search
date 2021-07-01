@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 ## Methods
 
-```
+```dart
 FutureBuilder<PokedexSearch> listPokemons = PokedexSearch.getListPokemons();
 Color colorbyType = ConstColors.getColorType(listPokemons.pokemon[150].type);
 ```
