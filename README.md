@@ -5,6 +5,13 @@ Package to introduce all 151 pokemons of the first generation.
 
 ![image](https://user-images.githubusercontent.com/49245496/124057557-0e505b80-d9fe-11eb-9542-cbbca0e6ae7f.png)
 
+## How To Use
+
+Import the following package in your dart file
+
+```dart
+import 'package:pokedex_search/pokedex_search.dart';
+```
 
 ## Usage
 
