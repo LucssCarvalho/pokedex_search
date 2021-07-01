@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
               future: PokedexSearch.getListPokemons(),
               builder: (context, snapshot) {
                 return snapshot.data == null
-                    ? ''
+                    ? Container(),
                     : ListView.builder(
                         itemCount: snapshot.data.pokemon.length,
                         itemBuilder: (_, i) {
