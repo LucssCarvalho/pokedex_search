@@ -1,8 +1,8 @@
 name: pokedex_search
 description: Package para consultar os 151 pokemons.
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0
+author: Lucas Carvalho
+homepage: https://github.com/LucssCarvalho/pokedex_search
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
