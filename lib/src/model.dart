@@ -1,6 +1,6 @@
 library pokedex_search;
 
-import 'package:pokedex_search/src/pokedex_pository.dart';
+import 'package:pokedex_search/src/pokedex_repository.dart';
 
 class PokedexSearch {
   List<Pokemon> pokemon;
