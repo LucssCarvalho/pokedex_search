@@ -1,0 +1,20 @@
+name: pokedex_search
+description: Package para consultar os 151 pokemons.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  dio: ">=3.0.10 <4.0.0"
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
