@@ -1,6 +1,6 @@
 name: pokedex_search
-description: Package para consultar os 151 pokemons.
-version: 1.0.0
+description: Package to introduce all 151 pokemons of the first generation.
+version: 1.0.1
 homepage: https://github.com/LucssCarvalho/pokedex_search
 
 environment:
