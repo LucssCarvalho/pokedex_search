@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: FutureBuilder<PokedexSearch>(
+          //method get future pokemon list
           future: PokedexSearch.getListPokemons(),
           builder: (context, snapshot) {
             return snapshot.data == null
@@ -46,6 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     itemBuilder: (_, i) {
                       var pokemon = snapshot.data.pokemon[i];
                       return ListTile(
+                        // method get color by pokemon type
                         tileColor: ConstColors.getColorType('${pokemon.type}'),
                         title: Text('${pokemon.name}'),
                       );

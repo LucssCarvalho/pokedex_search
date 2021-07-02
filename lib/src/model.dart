@@ -1,3 +1,10 @@
+/// ***
+/// Package to introduce all 151 pokemons of the first generation.
+///
+/// Author: Lucas Carvalho <lucas.carvalhocco@gmail.com>
+/// github: https://github.com/LucssCarvalho
+/// ***
+///
 library pokedex_search;
 
 import 'package:flutter/material.dart';

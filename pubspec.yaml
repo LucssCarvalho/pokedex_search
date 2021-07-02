@@ -1,6 +1,6 @@
 name: pokedex_search
 description: Package to introduce all 151 pokemons of the first generation.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/LucssCarvalho/pokedex_search
 
 environment:
@@ -8,7 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  dio: ">=3.0.10 <4.0.0"
+  dio: ^4.0.0
   flutter:
     sdk: flutter
 
